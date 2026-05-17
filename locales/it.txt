@@ -1,3 +1,4 @@
+```ini id="it_retranslate_v2"
 # -------------------------------------
 # State of Command: Italian locale
 # Format: key=value
@@ -10,15 +11,26 @@ menu.button.profile=Profilo
 menu.button.settings=Impostazioni
 menu.button.quit=Esci
 menu.intro.presented_by=Presentato da
+menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
+# Puoi traslitterare o ottenere l'equivalente del mio nome nella tua lingua,
+#assicurati di fare uno spazio tra ogni carattere vicino,
+#e doppio spazio dove normalmente ci sarebbe 1 spazio.
 
-# Main Menu Settings
-menu.settings.title=Impostazioni
-menu.settings.language=Lingua
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=Impostazioni
+ui.settings.tab.graphics=Grafica
+ui.settings.tab.language=Lingua
+ui.settings.tab.game_visuals=Aspetto del gioco
+
+ui.settings.resolution=Risoluzione
+ui.settings.window_mode=Modalità finestra
+
+ui.settings.language=Lingua
 
 # UI Manager| Flag Bar
 ui.button.diplomacy=Diplomazia
 ui.button.economy=Economia
-ui.button.unset=Non selezionato
+ui.button.unset=Non impostato
 ui.button.military=Militare
 
 # UI Manager| Country Select
@@ -27,9 +39,9 @@ ui.button.play_as=Gioca come
 # UI Manager| Settings
 ui.window.settings=Impostazioni
 ui.settings.secondary_icons=Usa icone secondarie delle unità
-ui.settings.flag_zoom_out=Mostra la bandiera quando si allontana la visuale (Unità)
-ui.settings.nation_overlay=Overlay delle nazioni (N)
-ui.settings.always_flag=Mostra sempre la bandiera sulle truppe (F)
+ui.settings.flag_zoom_out=Mostra bandiera allo zoom indietro (Unità)
+ui.settings.nation_overlay=Overlay nazionale (N)
+ui.settings.always_flag=Mostra sempre la bandiera sulle unità (F)
 ui.settings.unit_size=Dimensione unità
 
 # UI Manager| City tab (single city)
@@ -38,7 +50,7 @@ ui.label.buildings=Edifici:
 ui.label.no_buildings=Nessun edificio
 ui.label.construct=Costruisci:
 ui.button.factory=Fabbrica
-ui.button.military_hq=Quartier generale militare
+ui.button.military_hq=Quartier Generale Militare
 ui.button.depot=Deposito
 
 # UI Manager| City Tab (multiple cities)
@@ -52,30 +64,30 @@ ui.button.construct_buildings=Costruisci edifici
 ui.building.industrial_factory=Fabbrica industriale
 ui.building.production_lines=Linee di produzione:
 ui.building.inventory=Inventario:
-ui.building.no_items=Vuoto
+ui.building.no_items=Nessun oggetto
 ui.button.add_production_line=Aggiungi linea di produzione
-ui.building.military_hq_title=Quartier generale militare
-ui.button.spawn_unit=Crea unità
-ui.building.supply_depot=Deposito di rifornimenti
+ui.building.military_hq_title=Quartier Generale Militare
+ui.button.spawn_unit=Genera unità
+ui.building.supply_depot=Deposito rifornimenti
 ui.building.stored_equipment=Equipaggiamento immagazzinato:
 ui.label.empty=Vuoto
 
 # UI Manager| Unit Creation Tab
-ui.label.select_unit_type=Seleziona il tipo di unità:
+ui.label.select_unit_type=Seleziona tipo unità:
 ui.button.cancel=Annulla
 
 # UI Manager| Unit Tooltip
 ui.tooltip.no_equipment=Nessun equipaggiamento
-ui.tooltip.morale=morale: %.1f
-ui.tooltip.retreat_behavior=comportamento di ritirata: %s
+ui.tooltip.morale=Morale: %.1f
+ui.tooltip.retreat_behavior=Comportamento ritirata: %s
 ui.retreat.normal=Normale
 ui.retreat.hold_position=Mantieni posizione
-ui.retreat.fallback=Ritirata
-ui.tooltip.forming=in formazione: %.0f%%
+ui.retreat.fallback=Ripiegamento
+ui.tooltip.forming=IN FORMAZIONE: %.0f%%
 
 # UI Manager| Invasion Mode
 ui.invasion.mode_active=MODALITÀ INVASIONE ATTIVA
-ui.invasion.draw_line=Disegna la linea d'attacco
+ui.invasion.draw_line=Disegna la linea offensiva per pianificare
 ui.invasion.toggle_off=Premi 'I' per disattivare
 ui.button.execute=ESEGUI
 
@@ -86,9 +98,9 @@ ui.label.construct_building=Costruisci edificio:
 # UI Manager| Diplomacy tab
 ui.diplomacy.your_nation=La tua nazione:
 ui.diplomacy.status_ally=ALLEATO
-ui.diplomacy.status_war=GUERRA
+ui.diplomacy.status_war=IN GUERRA
 ui.diplomacy.status_neutral=Neutrale
-ui.diplomacy.button_ally=Forma alleanza
+ui.diplomacy.button_ally=Dichiara alleanza
 ui.diplomacy.button_war=Dichiara guerra
 ui.diplomacy.button_break_alliance=Rompi alleanza
 ui.diplomacy.button_peace=Dichiara pace
@@ -97,7 +109,7 @@ ui.diplomacy.info_tooltip=Fai clic destro sulla mappa per chiudere
 # Editor| Top Bar
 editor.btn.provinces=Province
 editor.btn.cities=Città
-editor.btn.urban=Aree urbane
+editor.btn.urban=Urbano
 editor.btn.roads=Strade
 editor.btn.buildings=Edifici
 editor.btn.units=Unità
@@ -105,9 +117,9 @@ editor.btn.nations=Nazioni
 editor.btn.draw_province=Disegna provincia
 editor.btn.definitions=Definizioni
 editor.btn.ref=+ Rif
-editor.tooltip.render_settings=Impostazioni di rendering
+editor.tooltip.render_settings=Impostazioni rendering
 editor.label.modified=[MODIFICATO]
-editor.label.no_map=Nessuna mappa caricata — apri il Browser Risorse per caricare una mappa
+editor.label.no_map=Nessuna mappa caricata — apri il Browser Risorse per caricare un set di mappe
 
 # Editor| Resource Browser
 editor.window.resource_browser=Browser Risorse
@@ -119,13 +131,243 @@ editor.btn.load_map=Carica mappa
 editor.btn.save_map=Salva mappa
 editor.btn.load_unit_set=Carica set unità
 editor.btn.save_flags=Salva bandiere
-editor.btn.load_flag_set=Carica set di bandiere
+editor.btn.load_flag_set=Carica set bandiere
 editor.btn.duplicate=Duplica
-editor.btn.save_to=Salva come...
-editor.hint.new_set_name=Nome del nuovo set...
+editor.btn.save_to=Salva in...
+editor.hint.new_set_name=Nuovo nome set...
 editor.btn.create=Crea
 editor.btn.save_all=Salva tutto (Ctrl+S)
 editor.label.unsaved=Modifiche non salvate!
 editor.hint.or_new_name=Oppure inserisci un nuovo nome...
 editor.btn.save=Salva
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Duplica set
+editor.popup.duplicate_format=Duplica set %s
+editor.popup.new_name_label=Nuovo nome
+editor.btn.duplicate_confirm=Duplica
+editor.btn.cancel=Annulla
+editor.popup.save_to_title=Salva nel set
+editor.popup.save_to_format=Salva i dati correnti in un set %s:
+editor.set_type.map=Mappa
+editor.set_type.unit=Unità
+editor.set_type.flag=Bandiera
+
+# Editor| Province Panel
+editor.window.province=Proprietà provincia
+editor.label.province_id=ID Provincia: %d
+editor.input.province_name=Nome provincia
+editor.input.owning_nation=Nazione proprietaria
+editor.input.assign_nation=Assegna alla nazione
+editor.label.vertices=Vertici: %d  (confine: %d)
+editor.label.vertex_info=Vertice #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Posizione
+editor.label.belongs_to=Appartiene alla provincia: %d (%s)
+editor.input.reassign_id=Riassegna a ID provincia
+editor.btn.reassign=Riassegna vertice
+editor.btn.remove_vertex=Rimuovi vertice
+editor.label.interior_vertex=(vertice interno)
+editor.label.min_verts=(minimo 3 vertici)
+editor.label.province_management=Gestione provincia
+editor.btn.stop_adding=Ferma aggiunta
+editor.btn.add_vertex=Aggiungi vertice
+editor.label.click_boundary=Fai clic sul confine per inserire
+editor.btn.draw_new_province=Disegna nuova provincia
+editor.label.drawing_verts=Disegno... (%d vertici)
+editor.btn.delete_province=Elimina questa provincia
+
+# Editor| Nation Panel
+editor.window.nation=Proprietà nazione
+editor.label.nation_hash=Hash: %u  Province: %d
+editor.input.nation_name=Nome nazione
+editor.label.no_flag=(nessuna bandiera)
+editor.label.flag_set=Set bandiere: %s
+editor.btn.change_flag=Cambia bandiera...
+editor.label.allies=Alleati
+editor.btn.add_ally=Aggiungi alleato
+editor.label.enemies=Nemici
+editor.btn.add_enemy=Aggiungi nemico
+editor.label.province_list_header=Lista province
+editor.label.state_management=Gestione stato
+editor.input.new_state_name=Nuovo nome stato##newstate
+editor.btn.create_state=Crea stato
+editor.btn.delete_state=Elimina questo stato
+
+# Editor| City Panel
+editor.window.city=Editor città
+editor.label.cities_count=Città: %d
+editor.btn.placing_cities=Posizionamento città...
+editor.btn.place_city=Posiziona città
+editor.label.click_map_place=Fai clic sulla mappa per posizionare
+editor.label.city_id=Città #%d
+editor.input.city_name=Nome
+editor.input.city_state=Stato
+editor.input.city_province=Provincia
+editor.input.population=Popolazione
+editor.input.lon_lat=Long / Lat
+editor.checkbox.urban_area=Area urbana
+editor.label.world_coords=Mondo: (%.4f, %.4f)
+editor.btn.delete_city=Elimina città
+editor.input.filter=Filtro
+
+# Editor| Road Panel
+editor.window.road=Editor strade
+editor.label.segments=Segmenti: %d
+editor.btn.new_segment=Nuovo segmento
+editor.label.add_mode=MODALITÀ AGGIUNTA
+editor.btn.stop=Ferma
+editor.btn.add_points=Aggiungi punti
+editor.label.segment_info=Segmento #%d (%d punti)
+editor.input.point_pos=Posizione punto
+editor.btn.delete_point=Elimina punto
+editor.btn.delete_segment=Elimina segmento
+
+# Editor| Building Panel
+editor.window.building=Editor edifici
+editor.label.buildings_click=Edifici: %d  — fai clic sulla mappa per posizionare
+editor.label.building_id=Edificio #%d
+editor.input.building_type=Tipo
+editor.input.owner_state=Stato proprietario
+editor.input.city_assign=Città
+editor.input.building_pos=Posizione
+editor.label.drag_map=Trascina sulla mappa per spostare
+editor.label.factory_props=Proprietà fabbrica
+editor.input.throughput=Capacità produttiva
+editor.input.shipping_threshold=Soglia spedizione
+editor.label.production_lines_count=Linee di produzione: %d
+editor.input.equipment=Equipaggiamento
+editor.input.capacity=Capacità
+editor.btn.remove=Rimuovi
+editor.btn.add_production_line=Aggiungi linea di produzione
+editor.label.depot_props=Proprietà deposito
+editor.input.max_equipment=Capacità massima equipaggiamento
+editor.input.max_manpower=Capacità massima manodopera
+editor.label.military_hq=Quartier Generale Militare
+editor.label.no_additional_props=Nessuna proprietà aggiuntiva
+editor.btn.delete_building=Elimina edificio
+
+# Editor| Unit Panel
+editor.window.unit=Editor unità
+editor.label.units_click=Unità: %d  — fai clic sulla mappa per posizionare
+editor.label.unit_id=Unità #%d
+editor.input.given_name=Nome
+editor.label.given_name_hint=Nome unità (non richiesto, verrà generato automaticamente)
+editor.input.definition=Definizione
+editor.checkbox.fully_formed=Completamente formata (genera a piena forza)
+editor.btn.generate_name=Nome automatico
+editor.btn.delete_unit=Elimina unità
+
+# Editor| Status Bar
+editor.mode.provinces=Province
+editor.mode.cities=Città
+editor.mode.urban_areas=Aree urbane
+editor.mode.roads=Strade
+editor.mode.buildings=Edifici
+editor.mode.units=Unità
+editor.mode.nations=Nazioni
+editor.status.modified=[MODIFICATO]
+editor.status.dropper_active=| CONTAGOCCE ATTIVO
+editor.status.add_vertex=| AGGIUNGI VERTICE
+editor.status.no_map=Nessuna mappa caricata
+
+# Editor| Help Overlay
+editor.window.controls=Controlli
+editor.help.navigation=Navigazione
+editor.help.wasd=WASD / Trascinamento destro: Sposta
+editor.help.scroll=Rotella: Zoom
+editor.help.selection=Selezione
+editor.help.click=Clic: Seleziona / Posiziona
+editor.help.shift_click=Shift+Clic: Nazione (modalità provincia)
+editor.help.drag=Trascina: Sposta selezionato
+editor.help.escape=Escape: Deseleziona
+editor.help.ctrl_s=Ctrl+S: Salva tutto
+editor.help.pick=Pulsante selezione: Strumento contagocce
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Fai clic sulla provincia per selezionare lo stato
+
+# Editor| Dropper Button
+editor.btn.picking=Selezione...
+editor.btn.pick=Seleziona
+editor.tooltip.dropper=Fai clic su una provincia sulla mappa per selezionare il suo stato proprietario
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Cerca nazioni...
+editor.hint.search_provinces=Cerca province...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Disegna provincia
+editor.label.click_map_vertices=Fai clic sulla mappa per posizionare i vertici
+editor.label.vertices_placed=Vertici posizionati: %d
+editor.input.create_prov_name=Nome##crprov
+editor.input.create_prov_state=Stato##crprov
+editor.btn.undo_last=Annulla ultimo vertice
+editor.btn.finish_province=Completa provincia
+editor.label.or_click_first=Oppure fai clic vicino al primo vertice (punto verde) per chiudere la forma.
+editor.label.min_3_verts=Posiziona almeno 3 vertici per completare.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Proprietà immagine di riferimento
+editor.btn.delete=Elimina
+editor.btn.unlock=Sblocca
+editor.btn.lock=Blocca
+editor.btn.hide=Nascondi
+editor.btn.show=Mostra
+editor.input.opacity=Opacità
+editor.input.position=Posizione
+editor.input.size=Dimensione (L/H)
+editor.input.scale=Scala
+editor.btn.fit_to_map=Adatta alla mappa
+
+# Editor| Render Settings 
+editor.window.render_settings=Impostazioni rendering
+editor.label.tile_textures=Texture tessere
+editor.checkbox.show_tile_textures=Mostra texture tessere
+editor.input.tint_strength=Intensità tinta
+editor.label.nation_rendering=Rendering nazioni
+editor.checkbox.render_by_nation=Renderizza per colore nazionale
+editor.checkbox.show_nation_flags=Mostra bandiere nazionali
+editor.tooltip.nation_flags=Renderizza le bandiere nazionali al centro del loro territorio
+editor.label.layer_opacities=Opacità livelli
+editor.input.provinces_opacity=Province
+editor.input.roads_opacity=Strade
+editor.input.city_dots_opacity=Punti città
+editor.input.urban_areas_opacity=Aree urbane
+editor.input.buildings_opacity=Edifici
+editor.input.units_opacity=Unità
+editor.btn.reset_all=Ripristina tutto
+
+# Editor| Urban Area Panel
+editor.window.urban=Editor area urbana
+editor.label.urban_count=Aree urbane: %d
+editor.btn.draw_urban=Disegna area urbana
+editor.label.drawing_urban=Disegno... (%d vertici)
+editor.label.urban_id=Area urbana #%d  (%d vertici confine)
+editor.input.urban_name=Nome
+editor.input.urban_state=Stato proprietario
+editor.input.urban_province=Provincia
+editor.input.urban_pop=Popolazione
+editor.input.filter_urban=Filtro##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Disegna area urbana
+editor.input.create_urban_name=Nome##crurban
+editor.input.create_urban_state=Stato##crurban
+editor.btn.finish_urban=Completa area urbana
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Editor nazioni
+editor.label.nations_count=Nazioni: %d
+editor.input.filter_nations=Filtro##nations
+editor.label.selected_nation=Selezionato: %s
+editor.input.nation_name_ne=Nome nazione##ne
+editor.label.provinces_ne=Province##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Editor definizioni
+editor.btn.equipment_tab=Equipaggiamento
+editor.btn.units_tab=Unità
+editor.btn.save_all_def=Salva tutto
+editor.btn.close=Chiudi
+editor.label.background_icons=Icone di sfondo
 ```
