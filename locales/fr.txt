@@ -193,21 +193,21 @@ editor.btn.create_state=Créer un État
 editor.btn.delete_state=Supprimer cet État
 
 # Editor| City Panel
-editor.window.city=City Editor
-editor.label.cities_count=Cities: %d
-editor.btn.placing_cities=Placing Cities...
-editor.btn.place_city=Place City
-editor.label.click_map_place=Click map to place
-editor.label.city_id=City #%d
-editor.input.city_name=Name
-editor.input.city_state=State
+editor.window.city=Editeur de Ville
+editor.label.cities_count=Villes: %d
+editor.btn.placing_cities=Placement de Ville...
+editor.btn.place_city=Placer une Ville
+editor.label.click_map_place=Cliquer sur la Carte pour Placer
+editor.label.city_id=Ville #%d
+editor.input.city_name=Nom
+editor.input.city_state=Etat
 editor.input.city_province=Province
 editor.input.population=Population
 editor.input.lon_lat=Lon / Lat
-editor.checkbox.urban_area=Urban Area
-editor.label.world_coords=World: (%.4f, %.4f)
-editor.btn.delete_city=Delete City
-editor.input.filter=Filter
+editor.checkbox.urban_area=Aire Urbaine
+editor.label.world_coords=Monde: (%.4f, %.4f)
+editor.btn.delete_city=Supprimer la Ville
+editor.input.filter=Filtrer
 
 # Editor| Road Panel
 editor.window.road=Road Editor
